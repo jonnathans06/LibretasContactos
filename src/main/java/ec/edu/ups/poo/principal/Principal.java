@@ -10,6 +10,13 @@ public class Principal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
+        Persona persona = new Persona();
+        persona.setNombre("Juan");
+        persona.setApellido("Perez");
+        persona.setCedula("1234567890");
+        persona.setDireccion("Calle 123 # 12-12");
+
+
         // Registro de personas
         System.out.println("Ingrese cuántas personas desea registrar: ");
         int nPersonas = sc.nextInt();
