@@ -9,6 +9,12 @@ import java.util.Scanner;
 public class Principal {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //Commits Pedro Pesántez
+        //Commit 1
+        System.out.println("-".repeat(45));
+        System.out.println("\tPrimer commit de Pedro Pesántez");
+        System.out.println("-".repeat(45));
+
 
         Persona persona1 = new Persona();
         persona1.setNombre("Juan");
