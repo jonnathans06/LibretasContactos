@@ -18,6 +18,10 @@ public class Principal {
         System.out.println("-".repeat(45));
         System.out.println("\tSegundo commit de Pedro Pesántez");
         System.out.println("-".repeat(45));
+        //Commit 3
+        System.out.println("-".repeat(45));
+        System.out.println("\tTercer commit de Pedro Pesántez");
+        System.out.println("-".repeat(45));
 
         Persona persona1 = new Persona();
         persona1.setNombre("Juan");
